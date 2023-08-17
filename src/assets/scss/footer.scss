@@ -1,0 +1,23 @@
+.footer {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 5px 0;
+    li {
+      margin-left: 10px;
+      text-decoration: underline;
+      cursor: pointer;
+      a {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
